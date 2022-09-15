@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",(()=>{!function(){let e=!1;const t=document.getElementById("header__catalog-btn"),a=document.getElementById("page__category-nav");t.addEventListener("click",(()=>{e=!e,e?(a.classList.add("category-nav--open"),t.classList.add("catalog-btn--expanded")):(a.classList.remove("category-nav--open"),t.classList.remove("catalog-btn--expanded")),a.setAttribute("aria-expanded",e.toString())}))}()}));
+//# sourceMappingURL=main.976f96e2.js.map
